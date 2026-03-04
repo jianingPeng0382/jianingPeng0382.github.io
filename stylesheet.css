@@ -1,0 +1,149 @@
+/* Basic Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'SF Pro Text', 'SF Pro Display', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1f2a37;
+  background-color: #f5f7fb;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #f09228;
+}
+
+/* Name Styling */
+.name {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+h2 {
+  font-size: 24px;
+  font-weight: 650;
+  margin-bottom: 15px;
+  color: #1f2a37;
+}
+
+/* Paper Title */
+.papertitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2a37;
+}
+
+/* Table Styling */
+table {
+  border-spacing: 0px;
+}
+
+td {
+  padding: 0px;
+}
+
+/* Main Container */
+body > table {
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Section Spacing */
+tbody > tr > td {
+  padding: 20px;
+}
+
+/* Links in Pills */
+p a {
+  background-color: #eef5ff;
+  padding: 4px 10px;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+p a:hover {
+  background-color: #dce9ff;
+  transform: translateY(-1px);
+}
+
+/* Image Hover Effect */
+.hoverZoomLink {
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.hoverZoomLink:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* List Styling */
+ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 760px) {
+  body > table {
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  table {
+    width: 100% !important;
+  }
+
+  td {
+    display: block;
+    width: 100% !important;
+  }
+
+  img {
+    max-width: 200px !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* Highlight Box */
+.highlight {
+  background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Alert Box */
+.alert {
+  background-color: #fff3bf;
+  border-left: 4px solid #f09228;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
