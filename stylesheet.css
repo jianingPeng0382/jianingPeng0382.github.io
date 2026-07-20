@@ -54,10 +54,6 @@ h2 {
   white-space: nowrap;
 }
 
-.publication-description {
-  text-wrap: balance;
-}
-
 /* Table Styling */
 table {
   border-spacing: 0px;
