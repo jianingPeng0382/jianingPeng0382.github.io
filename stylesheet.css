@@ -46,6 +46,14 @@ h2 {
   color: #1f2a37;
 }
 
+.publication-author {
+  display: inline-block;
+  padding-bottom: 1px;
+  border-bottom: 1px solid currentColor;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
 /* Table Styling */
 table {
   border-spacing: 0px;
